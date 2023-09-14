@@ -1,30 +1,27 @@
 using UnityEngine;
 
-public class PlayerShoot : MonoBehaviour
+public class Shoot : MonoBehaviour
 {
-    public GameObject projectilePrefab; 
+    public GameObject ProjectilePrefab;
+    public float ProjectileSpeed;
     public Transform gunTip; 
 
-    private void Update()
+    void Update()
     {
-        
-        if (Input.touchCount > 0)
+        if (Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Began)
         {
-            
-            Vector3 touchPosition = Camera.main.ScreenToWorldPoint(Input.GetTouch(0).position);
-            touchPosition.z = 0f; 
+            Vector3 clickPosition = Camera.main.ScreenToWorldPoint(Input.GetTouch(0).position);
+            clickPosition.z = 0f;
 
-            
-            Vector3 shootDirection = (touchPosition - gunTip.position).normalized;
+            Vector3 shootDirection = (clickPosition - gunTip.position).normalized;
 
-            
-            GameObject newProjectile = Instantiate(projectilePrefab, gunTip.position, Quaternion.identity);
+            float angle = Mathf.Atan2(shootDirection.y, shootDirection.x) * Mathf.Rad2Deg;
 
-            
-            Rigidbody2D rb = newProjectile.GetComponent<Rigidbody2D>();
+            gunTip.rotation = Quaternion.Euler(0, 0, angle);
 
-            
-            rb.velocity = shootDirection * 10f; 
+            GameObject projectile = Instantiate(ProjectilePrefab, gunTip.position, Quaternion.identity);
+
+            projectile.GetComponent<Rigidbody>().velocity = shootDirection * ProjectileSpeed;
         }
     }
 }

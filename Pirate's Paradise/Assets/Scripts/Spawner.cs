@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class Spawner : MonoBehaviour
 {
-    public GameObject[] cubes; 
+    public GameObject[] cubes;
     public float activationInterval = 3f;
 
     private float timer = 0f;

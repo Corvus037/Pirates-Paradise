@@ -1,0 +1,388 @@
+{
+  "format": 1,
+  "restore": {
+    "d:\\Git\\Pirate's Paradise\\Pirates-Paradise\\Pirate's Paradise\\Unity.VisualScripting.State.csproj": {}
+  },
+  "projects": {
+    "d:\\Git\\Pirate's Paradise\\Pirates-Paradise\\Pirate's Paradise\\Unity.VisualScripting.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "d:\\Git\\Pirate's Paradise\\Pirates-Paradise\\Pirate's Paradise\\Unity.VisualScripting.Core.csproj",
+        "projectName": "Unity.VisualScripting.Core",
+        "projectPath": "d:\\Git\\Pirate's Paradise\\Pirates-Paradise\\Pirate's Paradise\\Unity.VisualScripting.Core.csproj",
+        "packagesPath": "C:\\Users\\natha\\.nuget\\packages\\",
+        "outputPath": "d:\\Git\\Pirate's Paradise\\Pirates-Paradise\\Pirate's Paradise\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\natha\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "d:\\Git\\Pirate's Paradise\\Pirates-Paradise\\Pirate's Paradise\\UnityEditor.UI.csproj": {
+                "projectPath": "d:\\Git\\Pirate's Paradise\\Pirates-Paradise\\Pirate's Paradise\\UnityEditor.UI.csproj"
+              },
+              "d:\\Git\\Pirate's Paradise\\Pirates-Paradise\\Pirate's Paradise\\UnityEngine.UI.csproj": {
+                "projectPath": "d:\\Git\\Pirate's Paradise\\Pirates-Paradise\\Pirate's Paradise\\UnityEngine.UI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.414\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "d:\\Git\\Pirate's Paradise\\Pirates-Paradise\\Pirate's Paradise\\Unity.VisualScripting.Flow.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "d:\\Git\\Pirate's Paradise\\Pirates-Paradise\\Pirate's Paradise\\Unity.VisualScripting.Flow.csproj",
+        "projectName": "Unity.VisualScripting.Flow",
+        "projectPath": "d:\\Git\\Pirate's Paradise\\Pirates-Paradise\\Pirate's Paradise\\Unity.VisualScripting.Flow.csproj",
+        "packagesPath": "C:\\Users\\natha\\.nuget\\packages\\",
+        "outputPath": "d:\\Git\\Pirate's Paradise\\Pirates-Paradise\\Pirate's Paradise\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\natha\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "d:\\Git\\Pirate's Paradise\\Pirates-Paradise\\Pirate's Paradise\\Unity.VisualScripting.Core.csproj": {
+                "projectPath": "d:\\Git\\Pirate's Paradise\\Pirates-Paradise\\Pirate's Paradise\\Unity.VisualScripting.Core.csproj"
+              },
+              "d:\\Git\\Pirate's Paradise\\Pirates-Paradise\\Pirate's Paradise\\UnityEditor.UI.csproj": {
+                "projectPath": "d:\\Git\\Pirate's Paradise\\Pirates-Paradise\\Pirate's Paradise\\UnityEditor.UI.csproj"
+              },
+              "d:\\Git\\Pirate's Paradise\\Pirates-Paradise\\Pirate's Paradise\\UnityEngine.UI.csproj": {
+                "projectPath": "d:\\Git\\Pirate's Paradise\\Pirates-Paradise\\Pirate's Paradise\\UnityEngine.UI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.414\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "d:\\Git\\Pirate's Paradise\\Pirates-Paradise\\Pirate's Paradise\\Unity.VisualScripting.State.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "d:\\Git\\Pirate's Paradise\\Pirates-Paradise\\Pirate's Paradise\\Unity.VisualScripting.State.csproj",
+        "projectName": "Unity.VisualScripting.State",
+        "projectPath": "d:\\Git\\Pirate's Paradise\\Pirates-Paradise\\Pirate's Paradise\\Unity.VisualScripting.State.csproj",
+        "packagesPath": "C:\\Users\\natha\\.nuget\\packages\\",
+        "outputPath": "d:\\Git\\Pirate's Paradise\\Pirates-Paradise\\Pirate's Paradise\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\natha\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "d:\\Git\\Pirate's Paradise\\Pirates-Paradise\\Pirate's Paradise\\Unity.VisualScripting.Core.csproj": {
+                "projectPath": "d:\\Git\\Pirate's Paradise\\Pirates-Paradise\\Pirate's Paradise\\Unity.VisualScripting.Core.csproj"
+              },
+              "d:\\Git\\Pirate's Paradise\\Pirates-Paradise\\Pirate's Paradise\\Unity.VisualScripting.Flow.csproj": {
+                "projectPath": "d:\\Git\\Pirate's Paradise\\Pirates-Paradise\\Pirate's Paradise\\Unity.VisualScripting.Flow.csproj"
+              },
+              "d:\\Git\\Pirate's Paradise\\Pirates-Paradise\\Pirate's Paradise\\UnityEditor.UI.csproj": {
+                "projectPath": "d:\\Git\\Pirate's Paradise\\Pirates-Paradise\\Pirate's Paradise\\UnityEditor.UI.csproj"
+              },
+              "d:\\Git\\Pirate's Paradise\\Pirates-Paradise\\Pirate's Paradise\\UnityEngine.UI.csproj": {
+                "projectPath": "d:\\Git\\Pirate's Paradise\\Pirates-Paradise\\Pirate's Paradise\\UnityEngine.UI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.414\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "d:\\Git\\Pirate's Paradise\\Pirates-Paradise\\Pirate's Paradise\\UnityEditor.TestRunner.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "d:\\Git\\Pirate's Paradise\\Pirates-Paradise\\Pirate's Paradise\\UnityEditor.TestRunner.csproj",
+        "projectName": "UnityEditor.TestRunner",
+        "projectPath": "d:\\Git\\Pirate's Paradise\\Pirates-Paradise\\Pirate's Paradise\\UnityEditor.TestRunner.csproj",
+        "packagesPath": "C:\\Users\\natha\\.nuget\\packages\\",
+        "outputPath": "d:\\Git\\Pirate's Paradise\\Pirates-Paradise\\Pirate's Paradise\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\natha\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "d:\\Git\\Pirate's Paradise\\Pirates-Paradise\\Pirate's Paradise\\UnityEngine.TestRunner.csproj": {
+                "projectPath": "d:\\Git\\Pirate's Paradise\\Pirates-Paradise\\Pirate's Paradise\\UnityEngine.TestRunner.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.414\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "d:\\Git\\Pirate's Paradise\\Pirates-Paradise\\Pirate's Paradise\\UnityEditor.UI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "d:\\Git\\Pirate's Paradise\\Pirates-Paradise\\Pirate's Paradise\\UnityEditor.UI.csproj",
+        "projectName": "UnityEditor.UI",
+        "projectPath": "d:\\Git\\Pirate's Paradise\\Pirates-Paradise\\Pirate's Paradise\\UnityEditor.UI.csproj",
+        "packagesPath": "C:\\Users\\natha\\.nuget\\packages\\",
+        "outputPath": "d:\\Git\\Pirate's Paradise\\Pirates-Paradise\\Pirate's Paradise\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\natha\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "d:\\Git\\Pirate's Paradise\\Pirates-Paradise\\Pirate's Paradise\\UnityEditor.TestRunner.csproj": {
+                "projectPath": "d:\\Git\\Pirate's Paradise\\Pirates-Paradise\\Pirate's Paradise\\UnityEditor.TestRunner.csproj"
+              },
+              "d:\\Git\\Pirate's Paradise\\Pirates-Paradise\\Pirate's Paradise\\UnityEngine.TestRunner.csproj": {
+                "projectPath": "d:\\Git\\Pirate's Paradise\\Pirates-Paradise\\Pirate's Paradise\\UnityEngine.TestRunner.csproj"
+              },
+              "d:\\Git\\Pirate's Paradise\\Pirates-Paradise\\Pirate's Paradise\\UnityEngine.UI.csproj": {
+                "projectPath": "d:\\Git\\Pirate's Paradise\\Pirates-Paradise\\Pirate's Paradise\\UnityEngine.UI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.414\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "d:\\Git\\Pirate's Paradise\\Pirates-Paradise\\Pirate's Paradise\\UnityEngine.TestRunner.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "d:\\Git\\Pirate's Paradise\\Pirates-Paradise\\Pirate's Paradise\\UnityEngine.TestRunner.csproj",
+        "projectName": "UnityEngine.TestRunner",
+        "projectPath": "d:\\Git\\Pirate's Paradise\\Pirates-Paradise\\Pirate's Paradise\\UnityEngine.TestRunner.csproj",
+        "packagesPath": "C:\\Users\\natha\\.nuget\\packages\\",
+        "outputPath": "d:\\Git\\Pirate's Paradise\\Pirates-Paradise\\Pirate's Paradise\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\natha\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.414\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "d:\\Git\\Pirate's Paradise\\Pirates-Paradise\\Pirate's Paradise\\UnityEngine.UI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "d:\\Git\\Pirate's Paradise\\Pirates-Paradise\\Pirate's Paradise\\UnityEngine.UI.csproj",
+        "projectName": "UnityEngine.UI",
+        "projectPath": "d:\\Git\\Pirate's Paradise\\Pirates-Paradise\\Pirate's Paradise\\UnityEngine.UI.csproj",
+        "packagesPath": "C:\\Users\\natha\\.nuget\\packages\\",
+        "outputPath": "d:\\Git\\Pirate's Paradise\\Pirates-Paradise\\Pirate's Paradise\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\natha\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.414\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
