@@ -2,23 +2,19 @@ using UnityEngine;
 
 public class Spawner : MonoBehaviour
 {
-    public GameObject[] squares; 
-    public Sprite[] sprites;     
-    public float changeInterval = 3f; 
+    public GameObject[] cubes; 
+    public float activationInterval = 3f;
 
     private float timer = 0f;
-    private int currentIndex = -1;
+    private int currentActiveIndex = -1;
 
     private void Start()
     {
         
-        timer = changeInterval;
+        DeactivateAllCubes();
 
-        
-        foreach (var square in squares)
-        {
-            square.GetComponent<SpriteRenderer>().sprite = null;
-        }
+       
+        timer = activationInterval;
     }
 
     private void Update()
@@ -28,27 +24,31 @@ public class Spawner : MonoBehaviour
         if (timer <= 0f)
         {
             
-            if (currentIndex >= 0 && currentIndex < squares.Length)
+            if (currentActiveIndex >= 0 && currentActiveIndex < cubes.Length)
             {
-                squares[currentIndex].GetComponent<SpriteRenderer>().sprite = null;
-            }
-
-           
-            currentIndex = Random.Range(0, squares.Length);
-
-            
-            if (currentIndex >= 0 && currentIndex < sprites.Length)
-            {
-               
-                squares[currentIndex].GetComponent<SpriteRenderer>().sprite = sprites[currentIndex];
-            }
-            else
-            {
-                Debug.LogError("Não há sprites suficientes para atribuir aos quadrados.");
+                cubes[currentActiveIndex].SetActive(false);
             }
 
             
-            timer = changeInterval;
+            int randomIndex = Random.Range(0, cubes.Length);
+
+            
+            cubes[randomIndex].SetActive(true);
+
+            
+            currentActiveIndex = randomIndex;
+
+            
+            timer = activationInterval;
+        }
+    }
+
+    private void DeactivateAllCubes()
+    {
+        
+        foreach (var cube in cubes)
+        {
+            cube.SetActive(false);
         }
     }
 }
