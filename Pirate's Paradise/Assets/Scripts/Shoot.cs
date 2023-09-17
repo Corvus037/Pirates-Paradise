@@ -2,26 +2,49 @@ using UnityEngine;
 
 public class Shoot : MonoBehaviour
 {
-    public GameObject ProjectilePrefab;
-    public float ProjectileSpeed;
-    public Transform gunTip; 
+    public GameObject projectilePrefab; 
+    public float projectileSpeed = 10f; 
 
     void Update()
     {
         if (Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Began)
         {
-            Vector3 clickPosition = Camera.main.ScreenToWorldPoint(Input.GetTouch(0).position);
-            clickPosition.z = 0f;
+            
+            Vector3 touchPosition = Input.GetTouch(0).position;
+            touchPosition.z = 10f; 
 
-            Vector3 shootDirection = (clickPosition - gunTip.position).normalized;
+            
+            Vector3 targetPosition = Camera.main.ScreenToWorldPoint(touchPosition);
 
-            float angle = Mathf.Atan2(shootDirection.y, shootDirection.x) * Mathf.Rad2Deg;
+            
+            Vector3 shootDirection = targetPosition - transform.position;
 
-            gunTip.rotation = Quaternion.Euler(0, 0, angle);
+            
+            GameObject newProjectile = Instantiate(projectilePrefab, transform.position, Quaternion.identity);
 
-            GameObject projectile = Instantiate(ProjectilePrefab, gunTip.position, Quaternion.identity);
+            
+            Rigidbody rb = newProjectile.GetComponent<Rigidbody>();
+            rb.velocity = shootDirection.normalized * projectileSpeed;
+        }
+    }
 
-            projectile.GetComponent<Rigidbody>().velocity = shootDirection * ProjectileSpeed;
+    private void OnCollisionEnter(Collision collision)
+    {
+        
+        if (collision.gameObject.CompareTag("chest"))
+        {
+            Debug.Log("aiin");
+            
+            ScoreSystem scoreSystem = FindObjectOfType<ScoreSystem>();
+
+            if (scoreSystem != null)
+            {
+                
+                scoreSystem.AddScore(1);
+            }
+
+            
+            Destroy(gameObject);
         }
     }
 }

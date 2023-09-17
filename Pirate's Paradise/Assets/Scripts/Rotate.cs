@@ -6,17 +6,18 @@ public class Rotate : MonoBehaviour
     {
         if (Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Began)
         {
-            Vector3 touchPosition = Camera.main.ScreenToWorldPoint(Input.GetTouch(0).position);
-            touchPosition.z = 0f;
-
-           
-            Vector3 lookDirection = (touchPosition - transform.position).normalized;
+            
+            Vector3 touchPosition = Input.GetTouch(0).position;
+            touchPosition.z = 10f; 
 
             
-            Quaternion rotation = Quaternion.LookRotation(Vector3.forward, lookDirection);
+            Vector3 targetPosition = Camera.main.ScreenToWorldPoint(touchPosition);
 
             
-            transform.rotation = rotation;
+            Vector3 lookDirection = targetPosition - transform.position;
+
+            
+            transform.rotation = Quaternion.LookRotation(Vector3.forward, lookDirection);
         }
     }
 }
