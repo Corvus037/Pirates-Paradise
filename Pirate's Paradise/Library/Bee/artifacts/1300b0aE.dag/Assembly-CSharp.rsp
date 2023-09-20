@@ -347,10 +347,13 @@
 -r:"Library/Bee/artifacts/1300b0aE.dag/Unity.VSCode.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/UnityEngine.UI.ref.dll"
+"Assets/Scripts/EndSceneManager.cs"
 "Assets/Scripts/Rotate.cs"
 "Assets/Scripts/ScoreSystem.cs"
+"Assets/Scripts/ScoreUI.cs"
 "Assets/Scripts/Shoot.cs"
 "Assets/Scripts/Spawner.cs"
+"Assets/Scripts/Timer.cs"
 "Assets/Scripts/Tresure.cs"
 -langversion:9.0
 

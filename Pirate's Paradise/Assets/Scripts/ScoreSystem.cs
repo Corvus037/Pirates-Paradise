@@ -1,12 +1,15 @@
 using UnityEngine;
-using UnityEngine.SceneManagement; 
 
 public class ScoreSystem : MonoBehaviour
 {
     public int score = 0;
-    public int minScore = 0; 
+    public int minScore = 0;
 
-    
+    private void Awake()
+    {
+        
+        DontDestroyOnLoad(this.gameObject);
+    }
 
     public void AddScore(int points)
     {
@@ -14,8 +17,7 @@ public class ScoreSystem : MonoBehaviour
 
         if (score < minScore)
         {
-           
-            SceneManager.LoadScene("GameOver");
+            
         }
     }
 }
