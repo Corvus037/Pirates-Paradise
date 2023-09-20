@@ -6,6 +6,7 @@ TagManager:
   tags:
   - chest
   - Bullet
+  - closed
   layers:
   - Default
   - TransparentFX
